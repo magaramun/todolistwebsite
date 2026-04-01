@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 40px;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#e44332;
+}
+
+.logo img{
+    width:30px;
+    margin-right:10px;
+}
+
+.nav-links a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-size:16px;
+}
+
+.right-section{
+    display:flex;
+    align-items:center;
+}
+
+.open{
+  background-color: red;
+    margin-right:20px;
+    text-decoration:none;
+    color:#333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about {
+  padding: 160px 20px;
+  background-color: #f4f4f4;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  margin-right: 20px;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-section {
+  margin: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #ff0000;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 15px;
+  padding-top: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 40px;
+    border-bottom:1px solid #ddd;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#e44332;
+}
+
+.logo img{
+    width:30px;
+    margin-right:10px;
+}
+
+.nav-links a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-size:16px;
+}
+
+.right-section{
+    display:flex;
+    align-items:center;
+}
+
+.open{
+    background-color: red;
+    margin-right:20px;
+    text-decoration:none;
+    color:#333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.contact h1 {
+    color: #ff0202;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #383333;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #cf1212;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ff0000;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+}
